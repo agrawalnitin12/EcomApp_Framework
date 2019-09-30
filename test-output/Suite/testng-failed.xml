@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="script.DAY02">
+        <methods>
+          <include name="TC02"/>
+        </methods>
+      </class> <!-- script.DAY02 -->
+      <class name="script.DAY05">
+        <methods>
+          <include name="TC05"/>
+        </methods>
+      </class> <!-- script.DAY05 -->
+      <class name="script.DAY03">
+        <methods>
+          <include name="TC03"/>
+        </methods>
+      </class> <!-- script.DAY03 -->
+      <class name="script.DAY01">
+        <methods>
+          <include name="TC01"/>
+        </methods>
+      </class> <!-- script.DAY01 -->
+      <class name="script.DAY04">
+        <methods>
+          <include name="TC04"/>
+        </methods>
+      </class> <!-- script.DAY04 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
